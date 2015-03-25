@@ -22,7 +22,8 @@ h6 {
 }
 
 .topnav {
-    font-size: 14px; 
+    font-size: 20px; 
+    background-color: #ffffff;
 }
 
 .lead {
@@ -35,7 +36,7 @@ h6 {
     padding-bottom: 50px;
     text-align: center;
     color: #f8f8f8;
-    background: url(../img/fit/img4.jpg) no-repeat center center;
+    background: url(../img/fit2/cover%20photo%202.jpg) no-repeat center center;
     background-size: cover;
 }
 
@@ -167,4 +168,21 @@ footer {
 
 p.copyright {
     margin: 15px 0 0;
+}
+
+.navbar-fixed-top {
+    min-height: 80px;
+}
+
+.navbar-nav > li > a {
+    padding-top: 0px;
+    padding-bottom: 0px;
+    line-height: 80px;
+}
+
+@media (max-width: 767px) {
+    .navbar-nav > li > a {
+    line-height: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;}
 }
